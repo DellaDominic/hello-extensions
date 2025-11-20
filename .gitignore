@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.sock
+
+# Build artifacts
+dist/
+build/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor and OS specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Test files
+*.spec.js
+*.test.js
+__snapshots__/
+
+# Dependencies
+package-lock.json
+yarn.lock
+# If you are using pnpm
+pnpm-lock.yaml
+
+# Compiled JavaScript from TypeScript or other transpilers
+*.js.map
+# If you are compiling TypeScript to JavaScript and don't want to track the compiled .js files
+# Uncomment the following line if you want to ignore all compiled .js files except those in node_modules
+# *.js
+# If you only want to ignore specific compiled .js files, list them explicitly:
+# out/
+# lib/
